@@ -1,36 +1,49 @@
-p{
-   
+p {
     font-size: 20px;
     color: rgb(0, 179, 255);
 }
-h1, h2, h3, h4, h5, h6{
-    color:rgb(10, 11, 18)
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(10, 11, 18);
 }
-#g1{
+
+#g1 {
     color: rgb(0, 255, 132);
-    border: 2px;
-    border-style: dashed;
-    border-color: rgb(0, 255, 132);
-    
-}
-#navbar{
-    
+    border: 2px dashed rgb(0, 255, 132);
     padding: 10px;
-    lighting-color: rgb(68, 0, 255);
+}
+
+#navbar {
+    padding: 10px;
     border: 3px solid rgb(255, 0, 43);
-     background-color: rgb(17, 18, 18);
-     text-align: center;
-   
+    background-color: rgb(17, 18, 18);
+    text-align: center;
 }
 
-#navbar a{
+#navbar a {
     padding: 10px;
-   text-decoration:dotted;
-  
     color: rgb(255, 0, 43);
+    text-decoration: none;
 }
-#navbar a:hover {
-    action: hover;
-    color: rgb(251, 255, 0);
 
+#navbar a:hover {
+    color: rgb(251, 255, 0);
+}
+
+.card {
+    width: 200px;
+    border: 2px rgb(23, 22, 22);
+    border-style:ridge;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(23, 22, 22);
+}
+.card button{
+    cursor: pointer;
+   
 }

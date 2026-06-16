@@ -4,5 +4,33 @@ p{
     color: rgb(0, 179, 255);
 }
 h1, h2, h3, h4, h5, h6{
-    color:rgb(18, 10, 11)
+    color:rgb(10, 11, 18)
+}
+#g1{
+    color: rgb(0, 255, 132);
+    border: 2px;
+    border-style: dashed;
+    border-color: rgb(0, 255, 132);
+    
+}
+#navbar{
+    
+    padding: 10px;
+    lighting-color: rgb(68, 0, 255);
+    border: 3px solid rgb(255, 0, 43);
+     background-color: rgb(17, 18, 18);
+     text-align: center;
+   
+}
+
+#navbar a{
+    padding: 10px;
+   text-decoration:dotted;
+  
+    color: rgb(255, 0, 43);
+}
+#navbar a:hover {
+    action: hover;
+    color: rgb(251, 255, 0);
+
 }
